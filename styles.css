@@ -5,10 +5,11 @@
     flex-wrap: wrap;
 }
 
-
-
-.flexbox-item {
+.image {
     width:33px;
     height:auto;
+}
+
+.flexbox-item {
     margin:5px;
 }
