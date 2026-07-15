@@ -1,7 +1,7 @@
 .responsive-three-columns {
     display:flex;
     flex-wrap:wrap;
-    padding:15px;
+    margin:10%
 }
 
 .responsive-three-columns * > {
@@ -9,11 +9,13 @@
 }
 
 .responsive-three-columns * > img {
-    width:400px;
+    width:90%;
     height:auto;
-    padding:15px;
+    padding:5%
 }
 
-@media (min-width:768px) {
+@media (min-width:1000px) {
     .responsive-three-columns > * {
         width:calc(100% / 3);
+    }
+}
